@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
 baseURL = "/"
-languageCode = "en-AU"
-title = "My Awesome Title"
+languageCode = "en-US"
+title = "Lynch Financial Consultants"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Drew Lynch"
+  description = "Lynch Financial Consultants - Honesty, Integrity and Commitment to Serve Our Clients"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "Lynch Financial Consultants"
+  description = "Honesty, Integrity and Commitment to Serve"
 
 # Navigation section
 [params.nav]
@@ -101,7 +101,7 @@ title = "My Awesome Title"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
